@@ -29,4 +29,4 @@ Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Al
 Contributions to this repository are always welcome. If you would like to add a new solution or improve an existing one, feel free to submit a pull request. Please ensure that the code adheres to the repository's coding standards.
 
 ### License
-This repository contains my own implementation for some of HackerRank Problems. Feel free to use for any purpose.
+This repository contains contains my own work during studying this course and all my project files. Feel free to use for any purpose.
