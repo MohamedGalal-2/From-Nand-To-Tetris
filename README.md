@@ -20,7 +20,7 @@ Throughout the course, students work on building a virtual computer called Hack,
 By the end of the course, students will have created a complete, functioning computer system, from low-level hardware components to high-level software programs. The Nand2tetris course provides a comprehensive understanding of computer systems and is suitable for beginners and advanced learners alike.
 
 ### Description
-This repository contains my own work during studying this course and all my project files.
+This GitHub repository serves as a home for all the code done by me to this project. It includes a step-by-step guide, along with all the necessary code, documentation, and additional resources. The project follows a top-down approach, making it accessible for individuals with various levels of programming knowledge.
 
 ### Resources
 
