@@ -11,7 +11,7 @@ CHIP Mux
     OUT out;
 
     PARTS:
-    Not (in = sel, out = NotSel);
+	Not (in = sel, out = NotSel);
 	And (a = NotSel, b = a, out = NotSelAnda);
 	And (a = sel, b = b, out = selAndb);
 	Or  (a = NotSelAnda, b = selAndb, out = out);
