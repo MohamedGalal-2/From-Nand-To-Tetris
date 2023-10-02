@@ -28,7 +28,7 @@ The Nand2Tetris course is a hands-on, project-based course that takes us through
 
 * [Course website](http://nand2tetris.org)
 * [Coursera Part 1](https://www.coursera.org/learn/build-a-computer)
-* [Coursera Par t2](https://www.coursera.org/learn/nand2tetris2)
+* [Coursera Part 2](https://www.coursera.org/learn/nand2tetris2)
 
 The site contains all the lectures, project materials and tools necessary for building a general-purpose computer system and a modern software hierarchy from the ground up.
 
