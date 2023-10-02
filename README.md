@@ -22,7 +22,6 @@ The Nand2Tetris course is a hands-on, project-based course that takes us through
 The site contains all the lectures, project materials and tools necessary for building a general-purpose computer system and a modern software hierarchy from the ground up.
 
 ### My Progress ✔️
-
 #### Week 1
 
 Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Along with more complex ones like Multiplixers and Demultiplixers. The goal was to understand the basic building blocks of digital logic circuits and learn how to use the HDL language to describe and simulate their behavior.
