@@ -1,5 +1,10 @@
-/** Not gate: out = Not(a) */
 
+/**
+  * Not gate: 
+  * out = 1 if (in == 0)
+  *       1 otherwise
+  */
+  
 CHIP Not 
 {
 	IN in;
