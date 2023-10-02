@@ -22,8 +22,6 @@ By the end of the course, students will have created a complete, functioning com
 ### Description
 This repository contains my own work during studying this course and all my project files.
 
-The Nand2Tetris course is a hands-on, project-based course that takes us through the process of building a modern computer system from the ground up. The course teaches the fundamental principles and techniques used in computer hardware and software design.
-
 ### Resources
 
 * [Course website](http://nand2tetris.org)
