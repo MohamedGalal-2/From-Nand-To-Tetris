@@ -12,4 +12,4 @@ The site contains all the lectures, project materials and tools necessary for bu
 
 ### Week 1
 
-Implemented all primitive logic gates in HDL like And , Or and Xor along with more complex chips such as Multiplexers and Demultiplexers.
+Constructing various basic logic gates such as AND, OR, and NOT gates. Along with more complex ones like Multiplixers and Demultiplixers. The goal was to understand the basic building blocks of digital logic circuits and learn how to use the HDL language to describe and simulate their behavior.
