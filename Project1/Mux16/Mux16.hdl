@@ -1,0 +1,78 @@
+
+/**
+  * 16-bit multiplexor: 
+  * for i = 0..15 out[i] = a[i] if sel == 0 
+  *                        b[i] if sel == 1
+  */
+
+CHIP Mux16 
+{
+	IN a[16], b[16], sel;
+	OUT out[16];
+
+	PARTS:
+    Not (in = sel, out = NotSel);
+	And (a = NotSel, b = a[0], out = NotSelAnda0);
+	And (a = sel, b = b[0], out = selAndb0);
+	Or  (a = NotSelAnda0, b = selAndb0, out = out[0]);
+	
+	And (a = NotSel, b = a[1], out = NotSelAnda1);
+	And (a = sel, b = b[1], out = selAndb1);
+	Or  (a = NotSelAnda1, b = selAndb1, out = out[1]);
+	
+	And (a = NotSel, b = a[2], out = NotSelAnda2);
+	And (a = sel, b = b[2], out = selAndb2);
+	Or  (a = NotSelAnda2, b = selAndb2, out = out[2]);
+	
+	And (a = NotSel, b = a[3], out = NotSelAnda3);
+	And (a = sel, b = b[3], out = selAndb3);
+	Or  (a = NotSelAnda3, b = selAndb3, out = out[3]);
+	
+	And (a = NotSel, b = a[4], out = NotSelAnda4);
+	And (a = sel, b = b[4], out = selAndb4);
+	Or  (a = NotSelAnda4, b = selAndb4, out = out[4]);
+	
+	And (a = NotSel, b = a[5], out = NotSelAnda5);
+	And (a = sel, b = b[5], out = selAndb5);
+	Or  (a = NotSelAnda5, b = selAndb5, out = out[5]);
+	
+	And (a = NotSel, b = a[6], out = NotSelAnda6);
+	And (a = sel, b = b[6], out = selAndb6);
+	Or  (a = NotSelAnda6, b = selAndb6, out = out[6]);
+	
+	And (a = NotSel, b = a[7], out = NotSelAnda7);
+	And (a = sel, b = b[7], out = selAndb7);
+	Or  (a = NotSelAnda7, b = selAndb7, out = out[7]);
+	
+	And (a = NotSel, b = a[8], out = NotSelAnda8);
+	And (a = sel, b = b[8], out = selAndb8);
+	Or  (a = NotSelAnda8, b = selAndb8, out = out[8]);
+	
+	And (a = NotSel, b = a[9], out = NotSelAnda9);
+	And (a = sel, b = b[9], out = selAndb9);
+	Or  (a = NotSelAnda9, b = selAndb9, out = out[9]);
+	
+	And (a = NotSel, b = a[10], out = NotSelAnda10);
+	And (a = sel, b = b[10], out = selAndb10);
+	Or  (a = NotSelAnda10, b = selAndb10, out = out[10]);
+	
+	And (a = NotSel, b = a[11], out = NotSelAnda11);
+	And (a = sel, b = b[11], out = selAndb11);
+	Or  (a = NotSelAnda11, b = selAndb11, out = out[11]);
+	
+	And (a = NotSel, b = a[12], out = NotSelAnda12);
+	And (a = sel, b = b[12], out = selAndb12);
+	Or  (a = NotSelAnda12, b = selAndb12, out = out[12]);
+	
+	And (a = NotSel, b = a[13], out = NotSelAnda13);
+	And (a = sel, b = b[13], out = selAndb13);
+	Or  (a = NotSelAnda13, b = selAndb13, out = out[13]);
+	
+	And (a = NotSel, b = a[14], out = NotSelAnda14);
+	And (a = sel, b = b[14], out = selAndb14);
+	Or  (a = NotSelAnda14, b = selAndb14, out = out[14]);
+	
+	And (a = NotSel, b = a[15], out = NotSelAnda15);
+	And (a = sel, b = b[15], out = selAndb15);
+	Or  (a = NotSelAnda15, b = selAndb15, out = out[15]);
+}
