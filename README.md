@@ -1,16 +1,15 @@
-# NandTetris Solutions
+# From Nand To Tetris
 
-This repository contains my own solutions for the nand2tetris projects. Feel free to use for any purpose.
+This repository contains my own work during studying this course and all my project files.
 
-Nand2Tetris is a project-centered course where you build a modern computer system, from the ground up. You go all the way through, from constructing elementary logic gates to creating a fully functioning general purpose computer called HACK.
+The Nand2Tetris course is a hands-on, project-based course that takes us through the process of building a modern computer system from the ground up. The course teaches the fundamental principles and techniques used in computer hardware and software design.
 
-* Course page: http://nand2tetris.org/
-* Part I on Coursera: https://www.coursera.org/learn/build-a-computer
-* Part II on Coursera: https://www.coursera.org/learn/nand2tetris2
+* Course website: http://nand2tetris.org/
 
+The site contains all the lectures, project materials and tools necessary for building a general-purpose computer system and a modern software hierarchy from the ground up.
 
-## What I have done so far
+## My Progress ✔️
 
 ### Week 1
 
-Implemented all elementary logic gates in HDL, along with more complex chips such as Multiplexers and Demultiplexers.
+Implemented all primitive logic gates in HDL like And , Or and Xor along with more complex chips such as Multiplexers and Demultiplexers.
