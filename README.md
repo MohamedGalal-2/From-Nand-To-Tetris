@@ -8,6 +8,8 @@
 - [Contribution](#Contribution)
 - [License](#License)
 
+![Hello](https://i.ytimg.com/vi/kcORYKPL53o/maxresdefault.jpg)
+
 ### About the Course
 The Nand2tetris course is an online course that aims to teach students how to build a complete computer system from the ground up, starting from the basic building block of logic gates (specifically the NAND gate) and working their way up to high-level programming. The course is divided into two parts: hardware and software.
 
