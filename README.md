@@ -66,8 +66,6 @@ Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Al
 5. Understanding the RAM and how to work and why the data stored in it are volatile and constructing 16Kb stick of RAM using HDL.
 * The goal of this week is to build a chip called "Memory" that can store and retrieve a 16-bit value from a chosen memory address. The Memory chip consists of a 16-bit register for data storage and an array of 16 of these registers, forming a 16x16-bit memory array.
 
-In automata theory, sequential logic is a type of logic circuit whose output depends on the present value of its input signals and on the sequence of past inputs, the input history. This is in contras…
-
 ### Contribution
 Contributions to this repository are always welcome. If you would like to add a new solution or improve an existing one, feel free to submit a pull request. Please ensure that the code adheres to the repository's coding standards.
 
