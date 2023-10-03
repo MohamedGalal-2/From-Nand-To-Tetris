@@ -56,7 +56,8 @@ Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Al
 #### Week 2 ✔️
 1. Understanding binary numbers and negative binary number and arithmetic operations on them (addition & subtraction) and constructing in HDL Half Adder, Full Adder, Multibus (16 bits) Adder, and Incremental gate thats adds one on any number.
 2. Constructing an ALU (Arithmetic Logic Uint) in HDL using previously built gates in the first project and the circuits built in the second project. The ALU is responsible for performing arithmetic and logical operations on binary numbers.
-The goal of this week was to understand what is the binary systems numbers and how can we do arithematic operations on binary numbers and being able to understand the concept behind the ALU and how it works.
+
+* The goal of this week was to understand what is the binary systems numbers and how can we do arithematic operations on binary numbers and being able to understand the concept behind the ALU and how it works.
 
 ### Contribution
 Contributions to this repository are always welcome. If you would like to add a new solution or improve an existing one, feel free to submit a pull request. Please ensure that the code adheres to the repository's coding standards.
