@@ -34,7 +34,7 @@ This GitHub repository serves as a home for all the code done by me to this proj
 The site contains all the lectures, project materials and tools necessary for building a general-purpose computer system and a modern software hierarchy from the ground up.
 
 ### Repository Structure
-The course is divided into several projects, each building upon the concepts learned in the previous ones. Here is a brief overview of the projects in the Nand2Tetris course:
+The Repository is divided into several projects, each building upon the concepts learned in the previous ones. Here is a brief overview of the projects in the Nand2Tetris course:
 
 1. Project 1: Boolean Logic - In this project, you implement basic logic gates such as AND, OR, and NOT using the provided hardware description language (HDL) called HDL1.
 
