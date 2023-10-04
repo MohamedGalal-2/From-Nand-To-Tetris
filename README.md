@@ -6,7 +6,7 @@
 - [Resources](#Resources)
 - [Repository Structure](#Repository-Structure)
 - [My Progress](#My-Progress)
-    -[Week 1](#Week-1)
+    - [Week 1](#Week-1)
 - [Contribution](#Contribution)
 - [License](#License)
 
