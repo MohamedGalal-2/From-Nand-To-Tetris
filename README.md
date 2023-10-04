@@ -6,6 +6,7 @@
 - [Resources](#Resources)
 - [Repository Structure](#Repository-Structure)
 - [My Progress](#My-Progress)
+    -[Week 1](#Week-1)
 - [Contribution](#Contribution)
 - [License](#License)
 
@@ -50,7 +51,7 @@ The Repository is divided into several projects, each building upon the concepts
 12. Project 12: Operating System - You build a basic operating system that can run Jack programs on a simulated computer platform.
 
 ### My Progress
-#### Week 1 ✔️
+#### Week 1
 Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Along with more complex ones like Multiplixers and Demultiplixers. The goal was to understand the basic building blocks of digital logic circuits and learn how to use the HDL language to describe and simulate their behavior.
 
 #### Week 2 ✔️
