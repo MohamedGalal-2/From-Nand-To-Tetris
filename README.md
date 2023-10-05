@@ -42,7 +42,7 @@ The Repository is divided into several projects, each building upon the concepts
 
 1. Project 1: Boolean Logic - In this project, you implement basic logic gates such as AND, OR, and NOT using the provided hardware description language (HDL) called HDL1.
 2. Project 2: Boolean Arithmetic - You build basic arithmetic logic units (ALUs) and multi-bit ALUs using HDL1.
-3. Project 3: Sequential Logic - In this project, you get to know flip-flops and implement memory elements using HDL1.
+3. Project 3: Sequential Logic - In this project, you get to know flip-flops and implement memory elements such as Registers and RAM using HDL1.
 4. Project 4: Machine Language - You write low-level assembly-like language programs.
 5. Project 5: Computer Architecture - You build a central processing unit (CPU) using HDL2, a more advanced version of the hardware description language.
 6. Project 6: Assembler - You write an assembler program that translates assembly language code into machine code.
