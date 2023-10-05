@@ -62,7 +62,7 @@ Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Al
 2. Constructing an ALU (Arithmetic Logic Uint) in HDL using previously built gates in the first project and the circuits built in the second project. The ALU is responsible for performing arithmetic and logical operations on binary numbers.
 * The goal of this week was to understand what is the binary systems numbers and how can we do arithematic operations on binary numbers and being able to understand the concept behind the ALU and how it works.
 
-#### Week 3
+ #### Week 3
 1. Understanding the Sequential Logic Circuit whose output depends on the present value of its input signals and on the sequence of past inputs, the input history.
 2. Understanding D flip-flop which is a type of sequential logic circuit that stores a single bit of data and the logic behind it.
 3. Constructing a Bit chip in HDL using the D flip-flop to store one bit of data which gonna be our building unit of the registers.
@@ -70,7 +70,7 @@ Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Al
 5. Understanding the RAM and how to work and why the data stored in it are volatile and constructing 16Kb stick of RAM using HDL.
 * The goal of this week is to build a chip called "Memory" that can store and retrieve a 16-bit value from a chosen memory address. The Memory chip consists of a 16-bit register for data storage and an array of 16 of these registers, forming a 16x16-bit memory array.
 
-#### Week 4
+ #### Week 4
 1. Understanding the Assembly language and how it translates the code to the machine language (machine code) which is represented by binary code (0s and 1s), bridging the gap between high-level programming languages and machine code.
 2. Understanding the Hack Assembly Language which is a symbolic language used in the course as a simplified assembly language for the Hack computer architecture, which we are building. 
 3. Writing a program that do the multiplication as we have chosen not to put the multiplication and division operations in our ALU and left it to the software to do them.
