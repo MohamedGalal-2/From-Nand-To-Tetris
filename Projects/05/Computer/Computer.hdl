@@ -1,0 +1,71 @@
+
+/**
+  * The HACK computer, including CPU, ROM and RAM.
+  * When reset is 0, the program stored in the computer's ROM executes.
+  * When reset is 1, the execution of the program restarts. 
+  * Thus, to start a program's execution, reset must be pushed "up" (1)
+  * and "down" (0). From this point onward the user is at the mercy of 
+  * the software. In particular, depending on the program's code, the 
+  * screen may show some output and the user may be able to interact 
+  * with the computer via the keyboard.
+  */
+
+CHIP Computer 
+{
+    IN reset;
+
+    PARTS:
+    // CPU
+        // The CPU is designed to fetch and execute instructions written in 
+        // the Hack machine language. In particular, functions as follows:
+        // Executes the inputted instruction according to the Hack machine 
+        // language specification.
+
+    // Input:
+        // inM[16]          M value input  (M = contents of RAM[A])
+        // instruction[16]  Instruction for execution
+        // reset            Signals whether to re-start the current program (reset==1) 
+                            // or continue executing the current program (reset==0).
+
+    // Output:
+        // outM[16]         M value output
+        // writeM           Write to M? 
+        // addressM[15]     Address in data memory (of M)
+        // pc[15]           address of next instruction
+    CPU(inM = inM, instruction = instruction, reset = reset, 
+        writeM = writeM, outM = outM, addressM = addressM, pc = pc);
+    
+    // Memory
+        // The complete address space of the Hack computer's data memory.
+        // including RAM and memory-mapped I/O.
+        // Address space rules:
+        // Only the upper 16K+8K+1 words of the Memory chip are used. 
+        // Access to address>0x6000 is invalid. Access to any address in 
+        // the range 0x4000-0x5FFF results in accessing the screen memory 
+        // map. Access to address 0x6000 results in accessing the keyboard 
+        // memory map. The behavior in these addresses is described in the 
+        // Screen and Keyboard chip specifications given in the book.
+
+    // Input:
+        // in[16]           Memory input value
+        // load             Decides whether to write in the desired address or not 
+                            //(write if 1 == load, else no change to the memory address)
+        // address[15]      Memory address (location) to write the input data in
+                    
+
+    // Output:
+        // out[16]          Value at the given address
+    Memory(in = outM, load = writeM, address = addressM, out = inM);
+
+    // ROM32K(Read-Only memory)-> The Instruction Memory:
+        // Outputs the value stored in the address selected by the
+        // address input. The code stored in it is wrote in Hack Assembly Language.
+
+    // Input:
+        // address[15]      The address stored in the Program Counter(PC)
+
+    // Output:
+        // out[16]          The 16-bit value stored at the address
+    ROM32K(address = pc, out = instruction);
+}
+
