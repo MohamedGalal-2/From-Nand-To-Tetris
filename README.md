@@ -6,6 +6,9 @@
 - [Resources](#Resources)
 - [Repository Structure](#Repository-Structure)
 - [My Progress](#My-Progress)
+    - [Week 1](#Week-1)
+    - [Week 2](#Week-2)
+    - [Week 3](#Week-3)
 - [Contribution](#Contribution)
 - [License](#License)
 
@@ -50,14 +53,21 @@ The Repository is divided into several projects, each building upon the concepts
 12. Project 12: Operating System - You build a basic operating system that can run Jack programs on a simulated computer platform.
 
 ### My Progress
-#### Week 1 ✔️
+#### Week 1
 Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Along with more complex ones like Multiplixers and Demultiplixers. The goal was to understand the basic building blocks of digital logic circuits and learn how to use the HDL language to describe and simulate their behavior.
 
-#### Week 2 ✔️
+#### Week 2
 1. Understanding binary numbers and negative binary number and arithmetic operations on them (addition & subtraction) and constructing in HDL Half Adder, Full Adder, Multibus (16 bits) Adder, and Incremental gate thats adds one on any number.
 2. Constructing an ALU (Arithmetic Logic Uint) in HDL using previously built gates in the first project and the circuits built in the second project. The ALU is responsible for performing arithmetic and logical operations on binary numbers.
-
 * The goal of this week was to understand what is the binary systems numbers and how can we do arithematic operations on binary numbers and being able to understand the concept behind the ALU and how it works.
+
+#### Week 3
+1. Understanding the Sequential Logic Circuit whose output depends on the present value of its input signals and on the sequence of past inputs, the input history.
+2. Understanding D flip-flop which is a type of sequential logic circuit that stores a single bit of data and the logic behind it.
+3. Constructing a Bit chip in HDL using the D flip-flop to store one bit of data which gonna be our building unit of the registers.
+4. Understanding the registers that are the building units of the RAM (Random Access Memory) and how they work to store the bits inside it and constructing registers in HDL.
+5. Understanding the RAM and how to work and why the data stored in it are volatile and constructing 16Kb stick of RAM using HDL.
+* The goal of this week is to build a chip called "Memory" that can store and retrieve a 16-bit value from a chosen memory address. The Memory chip consists of a 16-bit register for data storage and an array of 16 of these registers, forming a 16x16-bit memory array.
 
 ### Contribution
 Contributions to this repository are always welcome. If you would like to add a new solution or improve an existing one, feel free to submit a pull request. Please ensure that the code adheres to the repository's coding standards.
