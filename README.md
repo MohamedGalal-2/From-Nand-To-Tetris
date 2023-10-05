@@ -10,6 +10,7 @@
     - [Week 2](https://github.com/MohamedGalal-2/From-Nand-To-Tetris/tree/main/Projects/02)
     - [Week 3](https://github.com/MohamedGalal-2/From-Nand-To-Tetris/tree/main/Projects/03)
     - [Week 4](https://github.com/MohamedGalal-2/From-Nand-To-Tetris/tree/main/Projects/04)
+    - [Week 5](https://github.com/MohamedGalal-2/From-Nand-To-Tetris/tree/main/Projects/05)
 - [Contribution](#Contribution)
 - [License](#License)
 
@@ -40,11 +41,11 @@ The site contains all the lectures, project materials and tools necessary for bu
 ### Repository Structure
 The Repository is divided into several projects, each building upon the concepts learned in the previous ones. Here is a brief overview of the projects in the Nand2Tetris course:
 
-1. Project 1: Boolean Logic - In this project, you implement basic logic gates such as AND, OR, and NOT using the provided hardware description language (HDL) called HDL1.
+1. Project 1: Boolean Logic - In this project, you implement basic logic gates such as AND, OR, and NOT using the provided hardware description language (HDL) called HDL.
 2. Project 2: Boolean Arithmetic - You build basic arithmetic logic units (ALUs) and multi-bit ALUs using HDL1.
-3. Project 3: Sequential Logic - In this project, you get to know flip-flops and implement memory elements such as Registers and RAM using HDL1.
+3. Project 3: Sequential Logic - In this project, you get to know flip-flops and implement memory elements such as Registers and RAM using HDL.
 4. Project 4: Machine Language - You write low-level assembly-like language programs.
-5. Project 5: Computer Architecture - You build a central processing unit (CPU) using HDL2, a more advanced version of the hardware description language.
+5. Project 5: Computer Architecture - You build a central processing unit (CPU) using HDL.
 6. Project 6: Assembler - You write an assembler program that translates assembly language code into machine code.
 7. Project 7: Virtual Machine I: Stack Arithmetic - You design a stack arithmetic virtual machine and write programs in the stack-based virtual machine language.
 8. Project 8: Virtual Machine II: Program Control - You extend the stack-based virtual machine to include branching and function calling capabilities.
@@ -76,6 +77,14 @@ Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Al
 3. Writing a program that do the multiplication as we have chosen not to put the multiplication and division operations in our ALU and left it to the software to do them.
 4. Writing a program that take an input from the keyboard and outputs a black screen on our monitor whenever any key is pressed and clears the screen if nothing is pressed on our keyboard.
 * The goal of this week was to learn about the syntax and semantics of the Hack assembly language. This includes understanding the different types of instructions and their formats, as well as learning how to write assembly code to perform various tasks using the Hack machine's instruction set. Additionally, week 4 focuses on introducing various programming constructs like variables, loops, and conditionals in the Hack assembly language. By the end of week 4, students should be able to write and understand Hack assembly code at a basic level.
+
+#### Week5
+1. Understanding CPU implementation and how the CPU retrives the program instruction from the ROM (Read Only Memory) and decodes it then executes it which is known by the fetch and execute cycle.
+2. Constructing the CPU in HDL using the ALU we built previously week and some other logic gates such as Multiplixersm, And gates and Or Gates and registers such as A and D registers.
+3. Constructing the memory of the Hack Computer from the 16K RAM we built previously, Screen RAM and the Keyboard RAM in HDL.
+4. Understanding how the CPU retrives input from the memory chip and how it can write the output of the excution process in the memory.
+5. Construction our Computer from the ROM, CPU, Memory chip we built in HDL.
+* The goal of the week is to design and implement a computer system using a HDL. This week's project is divided into two major components: designing and building the CPU (central processing unit) and designing and building the computer itself.
 
 ### Contribution
 Contributions to this repository are always welcome. If you would like to add a new solution or improve an existing one, feel free to submit a pull request. Please ensure that the code adheres to the repository's coding standards.
