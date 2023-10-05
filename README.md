@@ -70,6 +70,13 @@ Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Al
 5. Understanding the RAM and how to work and why the data stored in it are volatile and constructing 16Kb stick of RAM using HDL.
 * The goal of this week is to build a chip called "Memory" that can store and retrieve a 16-bit value from a chosen memory address. The Memory chip consists of a 16-bit register for data storage and an array of 16 of these registers, forming a 16x16-bit memory array.
 
+#### Week 4
+1. Understanding the Assembly language and how it translates the code to the machine language (machine code) which is represented by binary code (0s and 1s), bridging the gap between high-level programming languages and machine code.
+2. Understanding the Hack Assembly Language which is a symbolic language used in the course as a simplified assembly language for the Hack computer architecture, which we are building. 
+3. Writing a program that do the multiplication as we have chosen not to put the multiplication and division operations in our ALU and left it to the software to do them.
+4. Writing a program that take an input from the keyboard and outputs a black screen on our monitor whenever any key is pressed and clears the screen if nothing is pressed on our keyboard.
+* The goal of this week was to learn about the syntax and semantics of the Hack assembly language. This includes understanding the different types of instructions and their formats, as well as learning how to write assembly code to perform various tasks using the Hack machine's instruction set. Additionally, week 4 focuses on introducing various programming constructs like variables, loops, and conditionals in the Hack assembly language. By the end of week 4, students should be able to write and understand Hack assembly code at a basic level.
+
 ### Contribution
 Contributions to this repository are always welcome. If you would like to add a new solution or improve an existing one, feel free to submit a pull request. Please ensure that the code adheres to the repository's coding standards.
 
