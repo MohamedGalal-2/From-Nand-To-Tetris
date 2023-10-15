@@ -11,6 +11,7 @@
     - [Week 3](https://github.com/MohamedGalal-2/From-Nand-To-Tetris/tree/main/Projects/03)
     - [Week 4](https://github.com/MohamedGalal-2/From-Nand-To-Tetris/tree/main/Projects/04)
     - [Week 5](https://github.com/MohamedGalal-2/From-Nand-To-Tetris/tree/main/Projects/05)
+    - [Week 6](https://github.com/MohamedGalal-2/Hack-Assembler)
 - [Contribution](#Contribution)
 - [License](#License)
 
