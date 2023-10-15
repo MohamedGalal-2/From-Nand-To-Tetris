@@ -87,6 +87,11 @@ Constructing various basic logic gates in HDL such as AND, OR, and NOT gates. Al
 5. Construction our Computer from the ROM, CPU, Memory chip we built in HDL.
 * The goal of the week is to design and implement a computer system using a HDL. This week's project is divided into two major components: designing and building the CPU (central processing unit) and designing and building the computer itself.
 
+##### Week 6
+1. Building the Hack Assembler which converts the Hack Assembly code into machine code.
+2. I've implemented the Hack Assembler in C Programming Language.
+* The goal of this week is to build the hack assembler that takes assembly code as input, which consists of mnemonic instructions that represent the various operations that the Hack platform can perform. These instructions include arithmetic and logical operations, memory access commands, and control flow instructions.
+
 ### Contribution
 Contributions to this repository are always welcome. If you would like to add a new solution or improve an existing one, feel free to submit a pull request. Please ensure that the code adheres to the repository's coding standards.
 
